@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="/style.css">
+<div class="card">
+<h2>Chats</h2>
+<ul>
+<% users.forEach(u => { %>
+<li>@<%= u.username %></li>
+<% }) %>
+</ul>
+<form method="POST" action="/chat/send">
+<input name="receiver" placeholder="Username" />
+<input name="message" placeholder="Message" />
+<button>Send</button>
+</form>
+</div>
