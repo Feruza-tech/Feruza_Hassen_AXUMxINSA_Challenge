@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const pool = require("../config/db");
 
-// INTERNAL-ONLY CHECK
+// internal-only
 router.use((req, res, next) => {
   const ip = req.socket.remoteAddress;
 
