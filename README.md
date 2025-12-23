@@ -7,7 +7,7 @@ This project was used to analyze, exploit, and document vulnerabilities such as 
 📁 Project Structure
 VULNGRAM/
 │
-├── client/                 # React frontend
+├── client/                     # React frontend
 │   ├── public/
 │   └── src/
 │       ├── layout/
@@ -21,7 +21,7 @@ VULNGRAM/
 │       ├── index.js
 │       └── index.css
 │
-├── server/                 # Node.js backend
+├── server/                     # Node.js backend
 │   ├── config/
 │   │   └── db.js
 │   ├── controllers/
@@ -36,12 +36,12 @@ VULNGRAM/
 │   │   └── profile.js
 │   ├── services/
 │   │   └── imageFetcher.js
-│   ├── uploads/            # Uploaded avatars (exploitation target)
+│   ├── uploads/                # Uploaded avatars (exploitation target)
 │   ├── server.js
 │   └── .env
 │
-├── exploit-scripts/        # DNS rebinding & attack scripts
-├── documentation/          # Vulnerability reports & PoCs
+├── exploit-scripts/            # DNS rebinding & attack scripts
+├── documentation/              # Vulnerability reports & PoCs
 └── README.md
 
 ⚙️ Tech Stack
@@ -84,3 +84,4 @@ Security Focus: SSRF, DNS Rebinding, insecure allowlists
 Feruza Hassen
 Computer Science Student
 Focus: Cybersecurity, Penetration Testing, Red Teaming
+
