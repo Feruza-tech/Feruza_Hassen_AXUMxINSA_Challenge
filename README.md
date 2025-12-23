@@ -11,6 +11,7 @@ exploits and mitigation strategies.
 
 📁 Project Structure
 
+```text
 VULNGRAM/
 |
 ├── client/                     # React frontend
