@@ -43,6 +43,7 @@ Sensitive internal responses embedded inside an image file.
 Exfiltrated data stored permanently in uploads/ directory.
 
 This demonstrates a multi-stage real-world exploit, not a single isolated bug.
+
 📘 Lessons Learned
 
 URL allowlists alone are insufficient
