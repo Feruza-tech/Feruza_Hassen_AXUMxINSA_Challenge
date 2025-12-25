@@ -80,20 +80,8 @@ Security Focus:
 - Internal service access (/internal/admin)
 - Improper URL validation
 - Insecure server-side image fetching
-🔄 Alternative Exploitation Paths
 
-In addition to avatar uploads, similar exploitation could occur via:
 
-Any backend feature that fetches:
-Webhooks
-- Link previews
-- Profile metadata
-- External APIs by URL
-- Redirect-based SSRF
-- File upload handlers that accept SVG or XML
-- Misconfigured proxy or reverse proxy trust
-
-If the application cached DNS results longer, the attack would fail — making DNS TTL control critical.
 
 🔗 Bonus: Chained Exploit
 Exploit Chain Used
@@ -122,13 +110,8 @@ Sensitive internal responses embedded inside an image file.
 Exfiltrated data stored permanently in uploads/ directory.
 
 This demonstrates a multi-stage real-world exploit, not a single isolated bug.
-📘 Lessons Learned
-- URL allowlists alone are insufficient
-- DNS resolution must be validated after resolution
-- Internal services must enforce authenticatio
-- SVG is a dangerous file format if not sanitized
-- SSRF can escalate into full internal compromise
-- Defense-in-depth is mandatory, not optional
+
+
 
 Each documented vulnerability includes:
 - Technical root cause explanation
