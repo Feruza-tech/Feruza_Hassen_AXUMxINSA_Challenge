@@ -74,7 +74,7 @@ Security Focus:
 - Unsafe internal service exposure
 
 
-🚨 Demonstrated Vulnerabilities [Go To Demo_Video](https://drive.google.com/file/d/1gKg31bdlM_IUpRu2Uu5g_ma1BnuolG7Z/view?usp=drive_link)
+🚨 Demonstrated Vulnerabilities
 
 - DNS Rebinding via avatar-from-url feature
 - Internal service access (/internal/admin)
@@ -146,6 +146,7 @@ Focus Areas:
 - Cybersecurity
 - Penetration Testing
 - Red Teaming
+
 
 
 
